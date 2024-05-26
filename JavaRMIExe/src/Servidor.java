@@ -4,7 +4,7 @@ import java.rmi.registry.Registry;
 public class Servidor {
     public static void main(String[] args) {
         try {
-            // Inicie o serviço RMI
+            // Inicie o serviço RMI (Remote Method Invocation)
             Registry registry = LocateRegistry.createRegistry(1099);
             
             // Crie uma instância da implementação da interface remota
